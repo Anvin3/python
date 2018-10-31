@@ -1,8 +1,8 @@
 '''
-Created on Dec 2017
 Program for Fibonacci series.
 The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21
 '''
+
 def fib(n):
     t1,t2,i=0,1,3
     print(t1, end=' ')
@@ -11,9 +11,6 @@ def fib(n):
         t1,t2=t2,t1+t2
         print(t2, end=' ')
         i=i+1
-        
-        
-         
 n= int(input('Enter length of sequence required (>2):'))
 if n==2:
     print("Sequence is : 0 1")
